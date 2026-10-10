@@ -1,0 +1,9 @@
+Use case: stylized-concept. Asset type: transparent adventure-game animation sprite sheet. Reference image role: painted workshop background, style and original central socket shape only. Generate a precise 2 by 2 grid of FOUR equal square cells, each containing exactly the same small circular cyan energy core with a thin stationary dark bronze inner socket border and a compact luminous cyan halo with tiny warm amber accent. This will overlay ONLY the small original central socket at game coordinates160,84, downsampled to24x24 pixels. No outer turbine, no large metal ring, no vanes, no moving hardware, no rotation. Hardware and center position must remain IDENTICAL in all four frames; ONLY emitted glow brightness changes. Row-major pulse sequence: subdued cyan, medium cyan, bright cyan-white center with modest cyan halo, medium cyan. Painterly realistic aged industrial space-station material, consistent with reference. Actual transparent alpha outside the little socket/glow; generous transparent gutters and identical centered size in every cell. Tiny compact aura, not a large bloom. No room background, no text, labels, grid lines, watermark or painted checkerboard.
+
+Generated with built-in image_gen tool; transparent_background=true.
+Reference: assets/converted/room-111.png (workshop style and socket reference).
+Output: assets/source/generator-glow.png
+Output layout: 1774x887 RGBA; 2x2 grid in row-major pulse order. Split width and height in half, crop each cell to its alpha bounds, then fit consistently to24x24.
+Alpha threshold100 bounding boxes within cells: (485,140,741,382), (153,140,408,382), (485,98,741,341), (153,98,408,341).
+Integration target: central socket only; approximately24x24 native pixels, centered at160,84.
+Stationary socket hardware; cyan/amber illumination pulses without turbine rotation.

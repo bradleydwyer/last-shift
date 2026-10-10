@@ -1,0 +1,31 @@
+{
+  "name": "Last Shift",
+  "version": "1.4",
+  "engine": "SCI 1.1",
+  "rooms": [
+    110,
+    111,
+    112
+  ],
+  "startup": {
+    "script": 120,
+    "duration_seconds": 8,
+    "skippable": true,
+    "audio": 306
+  },
+  "resolution": [
+    320,
+    200
+  ],
+  "palette_colors": 256,
+  "resources": 243,
+  "digital_audio": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306
+  ]
+}

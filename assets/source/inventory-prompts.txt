@@ -1,0 +1,14 @@
+Built-in image_gen generation (2026-10-07)
+Reference files: assets/source/rooms.png; assets/source/worker-painted.png
+Generated source: assets/source/inventory-painted.png
+Workspace source: assets/source/inventory-painted.png
+Native outputs: inventory-wrench.png, inventory-cell.png, inventory-card.png (30 x 24 RGBA).
+Technical processing only: crop alpha >= 128 bounds per equal 724px tile, Lanczos fit inside 28 x 22, center in transparent 30 x 24.
+
+Use case: stylized-concept
+Asset type: one unified inventory icon sprite sheet for Last Shift, a painted SCI science fiction adventure.
+Input images: first image is reference for the industrial painted rooms, second image is reference for the painted dimensional worker. Match their warm amber key light, cool teal shadows, weathered materials and crisp readable silhouettes.
+Primary request: Generate ONE transparent contact sheet of exactly three isolated inventory objects laid out in a single horizontal row, each in its own equal-width third with generous empty space and no overlap. Left: one diagonal open-ended steel maintenance wrench, warm bronze reflections, chunky readable jaw and handle. Middle: a short chunky orange/copper cylindrical charged power cell with dark teal end caps and a small turquoise glowing power indicator, analogous to the orange cell on the room workbench. Right: a cream/silver rectangular transit access card at a modest diagonal, dark stripe and small gold chip, no text.
+Style: digitally painted dimensional game props, visually consistent materials, common light from upper-left. Designed to reduce cleanly to 30 by 24 pixel inventory icons; emphasize simple silhouettes and strong broad color shapes over tiny detail.
+Composition: landscape canvas three equal tiles, single item centered inside each tile, no objects near tile edges. Each object occupies roughly 65 percent of its tile width and height. All three items have equivalent visual scale.
+Constraints: transparent background, actual alpha transparency, no cast shadow beyond silhouette, no labels, no writing, no letters, no borders, no frames, no checkerboard painted into image, no additional objects.

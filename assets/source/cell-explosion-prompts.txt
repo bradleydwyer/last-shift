@@ -1,0 +1,20 @@
+Built-in image_gen, 2026-10-08. Reference/edit target: assets/converted/room-111.png.
+Damaged room source: assets/source/workshop-damaged.png
+Explosion/smoke source: assets/source/cell-explosion-smoke.png
+
+Use case: precise-object-edit
+Asset type: damaged background for a SCI adventure workshop, 320x190 native output after technical resize.
+Input image: exact edit target, the existing workshop background. Preserve its camera, perspective, room geometry, doorway positions, furniture positions, generator silhouette and floor lines exactly. No zoom, no reframing, no moving any object.
+Primary request: show the aftermath of an exploding charged battery on the RIGHT workbench. The orange battery has exploded and is gone; the bench right-hand surface is scorched black with several jagged bent metal fragments, a cracked tipped lamp, a few fallen fragments on the floor below, and soot sprayed onto the nearby right wall. The generator in the middle and left doorway are intact. Make the bench visibly damaged but recognizably the same bench. The bottom central walking floor remains clear. No fire or atmospheric smoke; smoke is a separate animated asset.
+Style: preserve the original painted industrial sci-fi art, warm amber lamps and cool teal metal, and exact pixel composition.
+Constraints: no people, no body, no characters, no labels or text, no extra doors, no interface, no changes outside the right bench damage area.
+
+Use case: stylized-concept
+Asset type: transparent animation sprite atlas for a painted sci-fi adventure explosion and rising smoke.
+Reference image: existing workshop, use only to match painted style and amber/cool teal palette.
+Primary request: ONE contact sheet exactly THREE columns and TWO rows, six isolated effect frames in equal tiles. Top row is three successive explosion phases: left a small bright yellow white ignition spark with orange fringe; middle a larger round orange fireburst with jagged sparks; right a fading orange burst mixed with dark soot. Bottom row is three successive drifting smoke phases from a burned body on floor: wispy charcoal gray smoke rising vertically from the same narrow bottom-center origin, left curling left, middle curling center, right curling right. Each smoke frame contains a tapered plume rising nearly full tile height from faint dark embers at base, upper smoke pale gray and dispersed. Do not draw a body.
+Style: digitally painted dimensional effects matching the room, simple broad readable shapes to reduce to native game pixels. No hard outlines or flat symbol design.
+Composition: landscape 3 columns x2 rows with equal tile dimensions, huge transparent margins between effects, no overlap. Explosion shapes centered in each tile; smoke origins at tile bottom-center with consistent physical size and position. Smoke roughly one-third tile width and three-quarters tile height. All six frames isolated against actual transparent alpha.
+Constraints: transparent background, no floor, no background scene, no character, no body, no lettering, no borders, no labels, no text, no painted checkerboard.
+
+Technical exports: workshop-damaged-native.png is320x190RGBA: Lanczos resize of generated damagedroom, then paste only right bench/wall polygon [(243,54),(319,52),(319,182),(225,182),(225,140),(235,119)] onto original room111 to preserve all other room pixels exactly. cell-burst-0/1/2.png are80x80RGBA exports of top row512x512tiles, fixedscale. cell-smoke-0/1/2.png are80x90RGBA exports of bottomrow tiles, resized90x90 then centered/cropped80wide, fixedorigin. Actualalpha preserved.

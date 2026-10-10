@@ -1,0 +1,6 @@
+Use case: identity-preserve. Asset type: single transparent adventure-game character sprite, seated pose. Input image role: exact character identity, costume and painterly style reference. Draw the SAME adult male space-station mechanic: short brown hair, teal protective goggles, orange maintenance coveralls with gray kneepads, black tool belt, dark boots. ONE character only, entire body visible, true transparent alpha background. Seated upright in an unseen cockpit seat, facing left in three-quarter profile, knees bent about90 degrees and boots planted, forearms forward naturally toward unseen flight controls. Calm alert posture, not collapsed, no injury. NO chair, spacecraft, console or other objects: only seated person silhouette. Keep head/body costume proportions matching reference and crisp painted realism. Compact silhouette suitable for a40x50pixel native sprite, generous transparent margin. No text, shadow floor, watermark or painted checkerboard.
+
+Generated with built-in image_gen; transparent_background=true.
+Reference: assets/source/worker-painted.png
+Output: assets/source/worker-seated.png
+Single seated cel; crop to alpha bounds, fit40x50 native pixels with bottom-center anchor. Encode view912 loop0 cel0.

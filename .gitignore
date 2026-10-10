@@ -1,0 +1,33 @@
+tools/
+saves/
+last-shift-player.ini
+scummvm.ini
+verification/*.raw
+verification/*.log
+verification/*.ini
+!verification/linux.ini
+verification/*.wav
+verification/*.txt
+verification/*/
+verification/saves/
+verification/*-state.json
+verification/*-stdout.txt
+release/
+__pycache__/
+.DS_Store
+
+# Release archives are built separately; do not commit bundled private diagnostics.
+*.zip
+
+# Original DOS interpreter and drivers are not needed by ScummVM.
+game/*.exe
+game/*.EXE
+game/*.drv
+game/*.DRV
+game/*.com
+game/*.COM
+game/INTERP.ERR
+game/RESOURCE.CFG
+game/dosbox.conf
+game/resource.aud
+game/resource.sfx

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "complete: logo, reception palette and actionable controls passed",
+    "keyboard-skip: logo, reception palette and actionable controls passed",
+    "mouse-skip: logo, reception palette and actionable controls passed",
+    "Death Restart bypassed logo and returned reception at 0/60"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    "Native perspective scaling verified in back and foreground frames after correcting VIEW flags",
+    "Painted eight-phase walking animation and matching inventory icons packaged",
+    "Wrench, cell and generator interactions animate before committing puzzle progress",
+    "Powered generator loops stationary socket glow with startup audio resource",
+    "Walk-icon workshop floor threshold enters third room",
+    "Death dialog arrow cursor visible and Restore recovers 40/60 save",
+    "Controls popup removed; no-outcome dialogue rewritten with fewer hints and dry humour",
+    "Modified SCI sources compile; Python syntax and launcher shell syntax pass",
+    "Furniture-aware walk polygons; scenery layers remain behind actor",
+    "Only near-side doorway masks retained",
+    "Eight-phase distance-driven gait with three-pixel movement and elapsed-time catch-up",
+    "Inventory item selection changes without closing window",
+    "Stationary pulsing generator socket replaces turbine rotation",
+    "Latest build launched in native macOS ScummVM",
+    "Personal username/path scan of project-owned files found no matches",
+    "Horizontal doorway exits and entries in both directions between all adjoining rooms",
+    "Kiosk approaches counter before responding",
+    "Craft boarding uses a visible seated pose; failed departure returns to the floor",
+    "Immutable runtime snapshot opened death dialog without script922 error; fresh-save Restore returned player control",
+    "Walking delay halved the previous speed consistently across rooms",
+    "Physical interactions approach their targets; console hand and card use both approach",
+    "Only Walk exits rooms; wrench use on a door leaves position and room unchanged",
+    "Craft occupant sits on the left facing right and remains visible during messages",
+    "Wrench on the bench power cell triggers an animated blast, collapsed character and damaged workshop",
+    "Smoke keeps animating during the blast death dialog",
+    "Blast death Restore returns a clean workshop at 10/60 with working movement; Restart returns clean reception at 0/60",
+    "Inventory cursor click points align with wrench head and cell/card centres; expanded bench hit area triggers explosion at previously missed position (279,127)"
+  ],
+  "limitations": [
+    "Isolated display has no audio device; startup sound not audibly checked in this revision",
+    "Diagonal heading loops use matching side profile artwork"
+  ],
+  "version": "1.3"
+}
